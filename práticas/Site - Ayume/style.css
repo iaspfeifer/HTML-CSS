@@ -1,0 +1,20 @@
+@charset "UTF-8";
+
+body {
+    position: relative;
+    margin: 0;
+    height: 100vh;
+    background-image: url('japao-rosa-transparente85.jpg');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+main {
+    background-color: white;
+    opacity: 1;
+    border-radius: 10px; /* Deixa a borda arredondada */
+    width: 1500px; /* Define o quanto da página a main vai ocupar */
+    padding: 15px; /* Define uma margem de respiro pra main(pro texto não ficar grudado na borda) */
+    margin: 100px auto 20px auto;
+    font-family: Arial, Helvetica, sans-serif;
+}

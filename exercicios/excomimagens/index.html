@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main>
+        <h1>Site de Exemplo</h1>
+
+        <h2>Imagem dinâmica</h2>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou aumente e diminua o tamanho do seu navegador
+        </p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png">
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem flexível">
+        </picture>
+
+        <h2>Áudios</h2>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quod, tempora necessitatibus. Quo vero fuga ea sequi soluta quae, minima, eum assumenda expedita porro ex nobis earum? Culpa et non mollitia.</p>
+        <audio preload="metadata" controls>
+            <source src="midia/spring day forest.mp3" type="audio/mp3">
+        </audio>
+
+        <h2>Vídeos</h2>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Beatae fugiat cum, odio iste nobis natus, quos provident atque quod dolores aperiam neque eligendi necessitatibus minus, doloremque rem similique eaque est.</p>
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem non pariatur nulla repellendus optio error adipisci accusantium, accusamus sit! Esse facilis iste eaque veritatis quam ipsum magnam quisquam, velit aspernatur.</p>
+        <video width="500" controls loop>
+            <source src="midia/video-Florzinhas.mp4" type="video/mp4">
+        </video>
+
+        <h2 class="externo">Vídeos do YouTube</h2>
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Quis facere nisi quod sit harum voluptatibus dolor placeat debitis assumenda necessitatibus iste labore rerum ab expedita est repudiandae, et iusto quasi.</p>
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/z_d13tqggP4?si=jFt8wDslccWRyCXi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+        <p style="text-align: right;"><a href="pagina2.html" target="_self"> > Ir para a página 2</a></p>
+    </main>
+</body>
+</html>
