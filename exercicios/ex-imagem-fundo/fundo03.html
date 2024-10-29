@@ -3,33 +3,36 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fundo de tela</title>
+    <title>Centralização de caixas</title>
     <style>
-        body {
-            height: 100vh;
-            background-color: black;
-            background-image: url(imagens/wallpaper002.jpg);
-            background-position: center center;
-            background-repeat: no-repeat; 
-            background-size: cover;
-            background-attachment: fixed;
+        main#container {
+            position: relative;
+            height: 96vh;
+            padding: 10px;
+            background-color: rgb(62, 119, 184);
+            background-image: url(imagens/target001.png);
+            background-size: 100% 100%;
         }
 
-        main {
+        article#conteudo {
+            background-image: url(imagens/target001.png);
             background-color: white;
-            max-width: 700px;
-            padding: 10px;
-            margin: auto;
-            border: 1px solid darkblue;
-            border-radius: 15px;
+            background-size: 100% 100%;
+
+            position: absolute;
+            height: 200px;
+            width: 400px;
+            left: 50%;
+            top: 50%;
+            transform: translate(-50%, -50%);  
         }
+
     </style> 
 </head>
 <body>
-    <main>
-        <h1>Teste de imagem de fundo</h1>
-        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi dolor quibusdam, dignissimos commodi natus qui, magni, illo illum mollitia numquam soluta architecto? Magni totam assumenda ducimus necessitatibus adipisci odio tempora! Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam perferendis harum eveniet id nemo ea sapiente mollitia sunt. Rem quam ipsa nam voluptatibus eius minima nulla mollitia dignissimos, eaque quae. Lorem ipsum dolor sit amet consectetur adipisicing elit. Quos adipisci esse ut minus voluptatem quae ea laudantium. Quisquam illum molestiae ipsum, delectus harum officiis eaque non corrupti velit sunt nesciunt!</p>
+    <main id="container">
+        <article id="conteudo">
+        </article>
     </main>
-    
 </body>
 </html>
