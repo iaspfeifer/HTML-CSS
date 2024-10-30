@@ -73,6 +73,7 @@ a:hover {
 nav {
     background-color: var(--cor1);
     padding: 10px;
+    box-shadow: 0px 6px 8px rgba(0, 0, 0, 0.315);
 }
 
 nav > a {
@@ -128,4 +129,13 @@ article > p a {
 article > p a:hover {
     color: var(--cor4);
     text-decoration: underline;
+}
+
+footer {
+    background-color: var(--cor2);
+    color: var(--cor5);
+    text-align: center;
+    font-family: var(--fonte2);
+    font-size: 1.8em;
+    padding: 10px;
 }
