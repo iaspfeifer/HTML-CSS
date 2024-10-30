@@ -60,7 +60,7 @@ header > p {
     max-width: 600px;
 }
 
-a {
+header a {
     color: white;
     text-decoration: none;
 }
@@ -104,13 +104,28 @@ article {
 article > h1 {
     font-family: var(--fonte2);
     font-size: 3em;
-    margin: 20px;
+    padding: 20px;
     text-transform: uppercase;
 }
 
 article > p {
+    padding: 6px;
     text-indent: 20px;
-    font-size: 1.2em;
+    font-size: 1.3em;
     line-height: 1.7em;
     text-align: justify;
+}
+
+strong {
+    color: var(--cor2);
+}
+
+article > p a {
+    color: var(--cor2);
+    text-decoration: none;
+}
+
+article > p a:hover {
+    color: var(--cor4);
+    text-decoration: underline;
 }
