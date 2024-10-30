@@ -1,11 +1,26 @@
 @charset "UTF-8";
 
+@font-face {
+    font-family: 'Japan wave';
+    src: url(japan_wave/Japan\ wave.ttf) format('truetype');
+}
+
+@font-face {
+    font-family: 'hachimaki';
+    src: url(h_hachimaki/hHachimaki.ttf) format('truetype');
+}
+
 :root {
     --cor1: rgb(76, 22, 36);
     --cor2: rgb(102, 30, 49);
     --cor3: rgb(138, 40, 66);
     --cor4: rgb(230, 135, 162);
     --cor5: rgb(255, 206, 220);
+
+    --fonte1: Arial, Helvetica, sans-serif;
+    --fonte2: "Japan wave", sans-serif;
+    --fonte3: "hachimaki", sans-serif;
+
 }
 
 * {
@@ -14,7 +29,7 @@
 }
 
 body {
-    background-color: rgb(230, 135, 162);
+    background-color: var(--cor4);
     background-image: url(midias/imagens/japao-rosa.jpg);
     background-size: cover;
     background-attachment: fixed;
@@ -22,18 +37,19 @@ body {
 }
 
 header {
-    background-color: rgb(76, 22, 36);
-    background-image: linear-gradient(to bottom, rgb(138, 40, 66), rgb(76, 22, 36));
+    background-color: var(--cor1);
+    background-image: linear-gradient(to bottom, var(--cor3), var(--cor1));
     color: white;
     min-height: 100px;
     text-align: center;
     padding-top: 20px;
-    text-shadow: 2px 2px 3px rgba(0, 0, 0, 0.459);
+    text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.459);
 }
 
 header > h1 {
     margin-bottom: 8px;
-    font-size: 3em;
+    font-family: var(--fonte3);
+    font-size: 4em;
     font-weight: normal;
 }
 
@@ -50,12 +66,12 @@ a {
 }
 
 a:hover {
-    color: rgb(255, 206, 220);
+    color: var(--cor5);
     text-decoration: underline;
 }
 
 nav {
-    background-color: rgb(76, 22, 36);
+    background-color: var(--cor1);
     padding: 10px;
 }
 
@@ -67,8 +83,8 @@ nav > a {
 }
 
 nav > a:hover {
-    background-color:  rgb(102, 30, 49);
-    color: rgb(255, 206, 220);
+    background-color:  var(--cor2);
+    color: var(--cor5);
     border-radius: 5px 5px 0px 0px;
     transition-duration: 0.4s;
 }
@@ -86,8 +102,10 @@ article {
 }
 
 article > h1 {
-    font-size: 2em;
-    margin: 10px;
+    font-family: var(--fonte2);
+    font-size: 3em;
+    margin: 20px;
+    text-transform: uppercase;
 }
 
 article > p {
