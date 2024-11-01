@@ -12,6 +12,7 @@
         table {
             width: 500px;
             border-collapse: collapse;
+            position: relative;
         }
 
         caption {
@@ -31,6 +32,12 @@
         }
 
         thead, tfoot {
+            background-color: rgb(184, 184, 184);
+        }
+
+        thead > tr > th {
+            position: sticky;
+            top: -1px;
             background-color: rgb(184, 184, 184);
         }
 
