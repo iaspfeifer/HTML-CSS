@@ -6,3 +6,5 @@
 <a href="https://iaspfeifer.github.io/HTML-CSS/exercicios/desafio/index.html">História do mascote Android</a>
 
 <a href="https://iaspfeifer.github.io/HTML-CSS/exercicios/desafio02/index.html">Cordel Moderno</a>
+
+<a href="https://iaspfeifer.github.io/HTML-CSS/exercicios/desafio03/index.html">Redes Sociais (Gustavo Guanabara)</a>
