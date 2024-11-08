@@ -8,34 +8,47 @@
 <body>
     <h1>Teste de formulário</h1>
     <form action="cadastro.php" method="get">
-        <p>
-            <label for="inome">Nome: </label>
-            <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="nome">
-        </p>
-        <p>
-            <label for="itel">Telefone: </label>
-            <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="![0-2]{2}-[0-9]{4,5}-[0-9]{4}$" placeholder="(xxx)xxxxx-xxxx">
-        </p>
-        <p>
-            <label for="iemail">E-mail: </label>
-            <input type="email" name="email" id="iemail" required>
-        </p>
-        <p>
-            <label for="imedia">Média: </label>
-            <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" required>
-        </p>
-        <p>
-            <label for="imes">Mês: </label>
-            <input type="month" name="mes" id="imes">
-        </p>
-        <p>
-            <label for="idata">Data prova: </label>
-            <input type="date" name="data" id="idata">
-        </p>
-        <p>
-            <label for="ihora">Hora: </label>
-            <input type="time" name="hora" id="ihora">
-        </p>
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <p>
+                <label for="inome">Nome: </label>
+                <input type="text" name="nome" id="inome" required maxlength="30" placeholder="Nome completo" autocomplete="nome">
+            </p>
+            <p>
+                <label for="itel">Telefone: </label>
+                <input type="tel" name="tel" id="itel" required autocomplete="tel" pattern="![0-2]{2}-[0-9]{4,5}-[0-9]{4}$" placeholder="(xxx)xxxxx-xxxx">
+            </p>
+            <p>
+                <label for="iemail">E-mail: </label>
+                <input type="email" name="email" id="iemail" required>
+            </p>
+        </fieldset>
+        <fieldset>
+            <p>
+                <label for="imedia">Média: </label>
+                <input type="number" name="media" id="imedia" min="0" max="10" step="0.1" required>
+            </p>
+            <p>
+                <label for="imes">Mês: </label>
+                <input type="month" name="mes" id="imes">
+            </p>
+            <p>
+                <label for="idata">Data prova: </label>
+                <input type="date" name="data" id="idata">
+            </p>
+            <p>
+                <label for="ihora">Hora: </label>
+                <input type="time" name="hora" id="ihora">
+            </p>
+        </fieldset>
+        <fieldset>
+            <legend>Matéria</legend>
+            <input type="checkbox" name="mat" id="imat"> <label for="imat">Matemática</label> <br>
+            <input type="checkbox" name="port" id="iport"> <label for="iport">Português</label> <br>
+            <input type="checkbox" name="cie" id="icie"> <label for="icie">Ciências</label> <br>
+            <input type="checkbox" name="geo" id="igeo"> <label for="igeo">Geografia</label> <br>
+            <input type="checkbox" name="his" id="ihis"> <label for="ihis">História</label>
+        </fieldset>
         <p>
             <input type="submit" value="Enviar">
             <input type="reset" value="Limpar">
