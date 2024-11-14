@@ -101,7 +101,7 @@ main h2 {
     font-family: var(--fonte-idroid);
     color: var(--cor4);
     background-image: linear-gradient(to right, var(--cor0), transparent);
-    font-size: 1,3em;
+    font-size: 1.3em;
     text-indent: 5px;
 }
 
