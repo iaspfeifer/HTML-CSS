@@ -38,7 +38,7 @@ nav > a {
     text-decoration: none;
     padding: 30px;
     padding-top: 15px;
-    padding-bottom: 11px;
+    padding-bottom: 10px;
     font-weight: bold;
     font-size: 1.2em;
 }
@@ -47,13 +47,60 @@ nav > a:hover {
     background-color: rgba(22, 22, 22, 0.842);
     color: white;
     border-radius: 5px 5px 0px 0px;
-    transition-duration: 0.4s;
+    transition-duration: 0.5s;
     text-decoration: underline;
 }
 
-/*footer {
+article {
+    background-color: rgba(255, 255, 255, 0.800);
+    padding: 20px;
+    border-radius: 10px;
+    min-width: 300px;
+    max-width: 1100px;
+    margin: 20px auto 20px auto;
+}
+
+div.resumo {
+    padding: 10px;
+}
+
+aside {
+    background-color: rgba(0, 0, 0, 0.76);
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.205);
+    padding: 10px;
+    margin: 10px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    transition: height 0.5s, line-height 0.5s;
+    color: white;
+    text-shadow: 3px 3px 3px black;
+    background-size: cover;
+}
+
+.cultura {
+    background-image: url(../imagens/players2-banner.jpeg);
+}
+
+.musica {
+    background-image: url(../imagens/cidade-banner.jpeg);
+}
+
+.livros {
+    background-image: url(../imagens/cenário-banner.jpeg);
+}
+
+aside:hover {
+    height: 90px;
+    line-height: 90px;
+
+    
+}
+
+footer {
     background-color: rgba(0, 0, 0, 0.842);
     color: white;
     text-align: center;
     padding: 10px;
-}*/
+}
