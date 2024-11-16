@@ -182,6 +182,8 @@ footer {
 .social-icons img {
     width: 30px;
     height: 30px;
+    padding: 10px;
+    border-radius: 50%;
 }
 
 .footer-quote {
