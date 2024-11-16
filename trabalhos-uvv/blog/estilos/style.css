@@ -178,10 +178,6 @@ aside:hover {
     border-radius: 5px;
 }
 
-.form-group textarea {
-    resize: vertical;
-}
-
 button {
     background-color: #3c546e;
     color: white;
