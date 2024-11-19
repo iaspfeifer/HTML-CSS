@@ -1,5 +1,12 @@
 @charset "UTF-8";
 
+@media screen and (max-width: 670px) {
+    nav > a {
+        display: block;
+        padding: 10px;
+    }
+}
+
 @media screen and (max-width: 992px) {
     body#index, body#pagcontatos {
         background-image: url(../imagens/cervo-responsivo.jpeg);
