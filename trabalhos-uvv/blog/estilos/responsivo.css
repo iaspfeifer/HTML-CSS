@@ -5,6 +5,10 @@
         display: block;
         padding: 10px;
     }
+
+    nav > a:hover {
+        border-radius: 5px;
+    }
 }
 
 @media screen and (max-width: 992px) {

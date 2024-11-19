@@ -8,3 +8,5 @@
 <a href="https://iaspfeifer.github.io/HTML-CSS/exercicios/desafio02/index.html">Cordel Moderno</a>
 
 <a href="https://iaspfeifer.github.io/HTML-CSS/exercicios/desafio03/index.html">Redes Sociais (Gustavo Guanabara)</a>
+
+<a href="https://iaspfeifer.github.io/HTML-CSS/trabalhos-uvv/blog/index.html">Blog - RPG</a>
