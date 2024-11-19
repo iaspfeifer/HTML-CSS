@@ -9,6 +9,28 @@
     nav > a:hover {
         border-radius: 5px;
     }
+
+    aside {
+        height: 150px;
+        line-height: 50px;
+    }
+
+    aside:hover {
+        height: 170px;
+        line-height: 50px;
+    }
+
+    .cultura {
+        background-image: url(../imagens/players2-responsivo-banner.jpeg);
+    }
+
+    .musica {
+        background-image: url(../imagens/cidade-responsivo-banner.jpeg);
+    }
+    
+    .livros {
+        background-image: url(../imagens/cenário-responsivo-banner.jpeg);
+    }
 }
 
 @media screen and (max-width: 992px) {
