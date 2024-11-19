@@ -1,0 +1,23 @@
+@charset "UTF-8";
+
+@media screen and (max-width: 700px) {
+    
+}
+
+@media screen and (max-width: 992px) {
+    body#index, body#pagcontatos {
+        background-image: url(../imagens/cervo-responsivo.jpeg);
+    }
+    
+    body#pagcultura {
+        background-image: url(../imagens/players2-responsivo.jpeg);
+    }
+    
+    body#paglivros {
+        background-image: url(../imagens/cenário-responsivo.jpeg);
+    }
+    
+    body#pagmusica {
+        background-image: url(../imagens/cidade-responsivo.jpeg);
+    }
+}
