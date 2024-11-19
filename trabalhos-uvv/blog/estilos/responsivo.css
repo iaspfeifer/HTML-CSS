@@ -1,9 +1,5 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 700px) {
-    
-}
-
 @media screen and (max-width: 992px) {
     body#index, body#pagcontatos {
         background-image: url(../imagens/cervo-responsivo.jpeg);
