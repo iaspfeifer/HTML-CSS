@@ -1,0 +1,92 @@
+:root {
+  --roxo-titulo: #5f44f6;
+  --magenta-titulo: #a547dc;
+  --azul-botao: #3363ff;
+  --azul-bebe-botao: #c7d6ff;
+}
+
+.roxo-titulo {
+  color: #5f44f6;
+}
+
+.magenta-titulo {
+  color: #a547dc;
+}
+
+.titulo-pagina {
+  font-size: 45px;
+  color: var(--roxo-titulo);
+  font-weight: bold;
+
+  padding-bottom: 81px;
+}
+
+.titulo-curso {
+  font-size: 50px;
+  color: var(--magenta-titulo);
+  font-weight: bold;
+
+  padding: 48px 0;
+}
+
+.dados-curso {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.dados-curso__item {
+  padding-right: 30px;
+}
+
+.botoes-informacoes {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
+.botoes-informacoes__botao {
+  background-color: var(--azul-bebe-botao);
+  color: var(--azul-botao);
+
+  font-weight: 500;
+  font-size: 15px;
+
+  border-style: none;
+  border-radius: 5px;
+
+  width: 124.53px;
+  height: 52px;
+
+  margin-right: 18px;
+}
+
+.botao-ativo {
+  background-color: var(--azul-botao);
+  color: white;
+}
+
+.visao-geral {
+  padding-top: 52px;
+}
+
+.visao-geral__bloco-informacao {
+  padding-bottom: 31px;
+}
+
+.visao-geral__titulo {
+  font-size: 20px;
+  font-weight: bold;
+  color: var(--roxo-titulo);
+}
+
+.botao-inscrever {
+  background-color: var(--azul-botao);
+  color: white;
+
+  font-size: 20px;
+
+  border-style: none;
+  border-radius: 5px;
+
+  width: 302px;
+  height: 61px;
+}
